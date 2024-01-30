@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../design_sources/my_packages/my_package.vhd" \
+"../../../../../design_sources/DataMem.vhd" \
+"../../../../../design_sources/InstrMem.vhd" \
+"../../../../HW_9.srcs/sources_1/new/Multiplexer.vhd" \
+"../../../../../design_sources/alu.vhd" \
+"../../../../../design_sources/cu.vhd" \
+"../../../../../design_sources/my_packages/ieee_2008/math_real.vhdl" \
+"../../../../../design_sources/my_packages/ieee_2008/math_real-body.vhdl" \
+"../../../../../design_sources/my_packages/my_package-body.vhd" \
+"../../../../../design_sources/pc_register.vhd" \
+"../../../../../design_sources/regfile.vhd" \
+"../../../../../design_sources/top_mips_single_cycle.vhd" \
+"../../../../../simulation_sources/mips_single_cycle_tb.vhd" \
+
+# Do not sort compile order
+nosort
